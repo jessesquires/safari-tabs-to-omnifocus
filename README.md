@@ -6,9 +6,15 @@
 There are two separate AppleScripts. They both export your Safari tabs to OmniFocus, with slight variations in behavior.
 
 1. Converts each tab in the frontmost window of Safari into an OmniFocus inbox item.
-The OmniFocus action title is set to the tab title, and the notes field contains the tab URL.
+The OmniFocus item title is set to the tab title, and the notes field contains the tab URL.
 
-2. Collects all tabs in the frontmost window of Safari, builds a list where each item contains the tab title and tab URL. Then it creates a single OmniFocus action in the inbox with the notes field set to the list of all tabs. The title is set to `"<FIRST TAB NAME> + N more tabs"`
+2. Collects all tabs in the frontmost window of Safari, builds a list where each item contains the tab title and tab URL. Then it creates a single OmniFocus item in the inbox with the notes field set to the list of all tabs. The title is set to `"<FIRST TAB NAME> + N more tabs"`
+
+## Installation
+
+Download and put the scripts in `~/Library/Scripts/`.
+
+Recommended: from `Script Editor.app` preferences, select the option to "Show Script menu in menu bar".
 
 ## Why?
 
