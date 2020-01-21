@@ -10,6 +10,8 @@ The OmniFocus item title is set to the tab title, and the notes field contains t
 
 2. Collects all tabs in the frontmost window of Safari, builds a list where each item contains the tab title and tab URL. Then it creates a single OmniFocus item in the inbox with the notes field set to the list of all tabs. The title is set to `"<FIRST TAB NAME> + N more tabs"`
 
+[Read the blog post](https://www.jessesquires.com/blog/apple-script-to-export-open-safari-tabs-to-omnifocus/).
+
 ## Installation
 
 Download and put the scripts in `~/Library/Scripts/`.
